@@ -69,7 +69,7 @@ pip install -r requirements.txt
 ``` 
 - Ejecutar la aplicación:
 ```bash
-streamlit run interfaz.py
+streamlit run interface.py
 ``` 
 
 ### **Windows**
@@ -95,5 +95,5 @@ pip install -r requirements.txt
 ``` 
 - Ejecutar la aplicación:
 ```bash
-streamlit run interfaz.py
+streamlit run interface.py
 ``` 
