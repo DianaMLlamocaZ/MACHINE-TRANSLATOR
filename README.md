@@ -9,5 +9,6 @@ Aquí mostraré un gif de prueba del modelo.
 ---
 
 ## Arquitectura del modelo
-
+El modelo traductor ha sido implementado desde cero, enfocándome principalmente en el procesamiento correcto de tensores.
+- **Encoder:** 
 
