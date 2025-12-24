@@ -45,6 +45,10 @@ git clone (link_del_repo) machine-translator
 ```console
 cd [Ruta_donde_clonaste_el_repositorio]
 ```
+- Crear el environment (en esa misma carpeta):
+```console
+python3 -m venv machine-translator-env
+```
 - Activar el environment:
 ```console
 source machine-translator-env/bin/activate
