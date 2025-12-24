@@ -55,7 +55,7 @@ Para ejecutar el programa de forma local, sigue los pasos descritos:
 ```bash
 git clone (link_del_repo)
 ```
-No te olvides de copiar los archivos con la .pth (luego de descomprimir el zip descargado) y almacenarlos en la carpeta 'models' que se creó al clonar el repositorio.
+No te olvides de copiar los archivos con la extensión .pth (luego de descomprimir el zip descargado) y almacenarlos en la carpeta 'models' que se creó al clonar el repositorio.
 - Entrar a la carpeta donde clonaste el repositorio:
 ```bash
 cd [Ruta_donde_clonaste_el_repositorio]
@@ -82,7 +82,7 @@ streamlit run interface.py
 ```bash
 git clone (link_del_repo)
 ```
-No te olvides de copiar los archivos con la .pth (luego de descomprimir el zip descargado) y almacenarlos en la carpeta 'models' que se creó al clonar el repositorio.
+No te olvides de copiar los archivos con la extensión .pth (luego de descomprimir el zip descargado) y almacenarlos en la carpeta 'models' que se creó al clonar el repositorio.
 - Entrar a la carpeta donde clonaste el repositorio:
 ```bash
 cd [Ruta_donde_clonaste_el_repositorio]
