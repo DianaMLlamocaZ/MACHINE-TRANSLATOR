@@ -63,3 +63,27 @@ streamlit run interfaz.py
 ``` 
 
 ### **Windows**
+- Clonar el repositorio:
+```console
+git clone (link_del_repo) machine-translator
+```
+- Entrar a la carpeta donde clonaste el repositorio:
+```console
+cd [Ruta_donde_clonaste_el_repositorio]
+```
+- Crear el environment (en esa misma carpeta):
+```console
+python -m venv machine-translator-env
+```
+- Activar el environment:
+```console
+.\machine-translator-env\Scripts\activate
+```
+- Instalar las librerías necesarias:
+```console
+pip install -r requirements.txt
+``` 
+- Ejecutar la aplicación:
+```console
+streamlit run interfaz.py
+``` 
