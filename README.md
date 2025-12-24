@@ -37,7 +37,7 @@ El modelo traductor ha sido implementado desde cero, enfocándome principalmente
 Para ejecutar el programa de forma local, sigue los pasos descritos:
 
 ### **Ubuntu**
-- Clonar el repositorio:
+- Clonar el repositorio (recomendado en el escritorio):
 ```console
 git clone (link_del_repo) machine-translator
 ```
@@ -63,7 +63,7 @@ streamlit run interfaz.py
 ``` 
 
 ### **Windows**
-- Clonar el repositorio:
+- Clonar el repositorio (recomendado en el escritorio):
 ```console
 git clone (link_del_repo) machine-translator
 ```
