@@ -38,27 +38,27 @@ Para ejecutar el programa de forma local, sigue los pasos descritos:
 
 ### **Ubuntu**
 - Clonar el repositorio (recomendado en el escritorio):
-```console
+```bash
 git clone (link_del_repo) machine-translator
 ```
 - Entrar a la carpeta donde clonaste el repositorio:
-```console
+```bash
 cd [Ruta_donde_clonaste_el_repositorio]
 ```
 - Crear el environment (en esa misma carpeta):
-```console
+```bash
 python3 -m venv machine-translator-env
 ```
 - Activar el environment:
-```console
+```bash
 source machine-translator-env/bin/activate
 ```
 - Instalar las librerías necesarias:
-```console
+```bash
 pip install -r requirements.txt
 ``` 
 - Ejecutar la aplicación:
-```console
+```bash
 streamlit run interfaz.py
 ``` 
 
