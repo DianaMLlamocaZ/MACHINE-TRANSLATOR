@@ -18,4 +18,17 @@ El modelo traductor ha sido implementado desde cero, enfocándome principalmente
 ---
 
 ## Características principales
-- **Pipeline de datos:** Limpieza, normalización y tokenización del dataset. **IMPORTANTE:** Para cada idioma, creé 1 diccionario que mapea las palabras de ese idioma a un id token, necesario para generar el word embedding.     
+- **Pipeline de datos:** Limpieza, normalización y tokenización del dataset.
+- **Inferencia en tiempo real:** Cuando el usuario coloca una oración en inglés, se realiza la traducción a español en tiempo real y se muestra en la interfaz.
+- **Interfaz Streamlit:** Permite al usuario interactuar con el modelo de forma directa.
+
+---
+
+## Información adicional importante
+- Para cada idioma, creé 1 diccionario que mapea las palabras de ese idioma a un id token, necesario para generar, a partir de él, el word embedding.
+- Para que el entrenamiento del modelo sea eficiente y paralelo, utilicé batches. Por ello, debido a que no todas las oraciones tenían el mismo tamaño durante el entrenamiento, utilicé la técnica de 'padding'.
+
+---
+
+## Instalación y uso local
+
