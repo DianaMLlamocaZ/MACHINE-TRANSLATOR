@@ -48,7 +48,7 @@ Para ejecutar el programa de forma local, sigue los pasos descritos:
 ### **Ubuntu**
 - Clonar el repositorio (recomendado en el escritorio):
 ```bash
-git clone (link_del_repo) machine-translator
+git clone (link_del_repo)
 ```
 - Entrar a la carpeta donde clonaste el repositorio:
 ```bash
@@ -74,7 +74,7 @@ streamlit run interfaz.py
 ### **Windows**
 - Clonar el repositorio (recomendado en el escritorio):
 ```bash
-git clone (link_del_repo) machine-translator
+git clone (link_del_repo)
 ```
 - Entrar a la carpeta donde clonaste el repositorio:
 ```bash
