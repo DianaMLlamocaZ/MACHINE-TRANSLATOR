@@ -9,6 +9,7 @@ Aquí mostraré un gif de prueba del modelo.
 ---
 
 ## Arquitectura del modelo
-El modelo traductor ha sido implementado desde cero, enfocándome principalmente en el procesamiento correcto de tensores.
-- **Encoder:** 
+El modelo traductor ha sido implementado desde cero, enfocándome principalmente en el procesamiento correcto de tensores y su arquitectura.
+- **Encoder:** 2 GRU layers que codifican la oración en vectores de contexto que se generan en cada paso a tiempo.
+- **Decoder:** 
 
