@@ -35,11 +35,16 @@ El modelo traductor ha sido implementado desde cero, enfocándome principalmente
 
 ## Instalación y uso local
 Para ejecutar el programa de forma local, sigue los siguientes pasos:
-- **Ubuntu**
+**Ubuntu**
 - Clonar el repositorio:
 ```console
-git clone repo
+git clone (link_del_repo) translator
 ```
-- 
-  
-- **Windows**
+- Entrar a la carpeta donde clonaste el repositorio:
+```console
+cd [Ruta_donde_clonaste_el_repositorio]
+```
+
+
+
+**Windows**
