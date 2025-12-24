@@ -47,6 +47,7 @@ NOTA: Son 2 modelos que se prueban en la interfaz y tienen los mismos hiperpará
 Para ejecutar el programa de forma local, sigue los pasos descritos:
 
 ### **Ubuntu**
+- Primero, descargar el archivo ai_models.zip y descomprimirlo. Posteriormente, solo los archivos con extension .pth almacenarlos en la carpeta 'models' luego de clonar el repositorio.
 - Clonar el repositorio (recomendado en el escritorio):
 ```bash
 git clone (link_del_repo)
