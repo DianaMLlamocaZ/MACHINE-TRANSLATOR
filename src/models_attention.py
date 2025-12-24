@@ -1,7 +1,7 @@
 import torch
 
 #Encoder
-class Encoder2(torch.nn.Module):
+class Encoder(torch.nn.Module):
   def __init__(self,num_emb_id1,emb_dim,hidden_size,num_layers_gru):
     super().__init__()
     self.gru_layers=num_layers_gru
@@ -41,7 +41,7 @@ class BahdanauAttention(torch.nn.Module):
 
 
 #Decoder
-class Decoder2(torch.nn.Module):
+class Decoder(torch.nn.Module):
   def __init__(self,num_emb_id2,emb_dim,hidden_size,out_size,num_layers_gru,size_attn):
     super().__init__()
     self.emb=torch.nn.Embedding(num_embeddings=num_emb_id2,embedding_dim=emb_dim,padding_idx=0)
