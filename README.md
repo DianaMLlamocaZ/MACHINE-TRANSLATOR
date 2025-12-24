@@ -12,6 +12,7 @@ Aquí muestro una captura de pantalla de prueba del modelo mediante la interfaz.
 ---
 ## Dataset:
 - El modelo fue entrenado utilizando el dataset **English-Spanish Translation Dataset** alojado en Kaggle.
+- Nota: Las oraciones del dataset tienen al final el signo de puntuación punto, por lo que se recomendienda colocar el punto final en la oracion, excepto si es una pregunta.
 
 ## Arquitectura del modelo
 El modelo traductor ha sido implementado desde cero, enfocándome principalmente en el procesamiento correcto de tensores y su arquitectura.
