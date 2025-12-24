@@ -18,6 +18,8 @@ El modelo traductor ha sido implementado desde cero, enfocándome principalmente
 - **Decoder:** Toma el context vector (generado por el mecanismo de atención), el input actual y el hidden state para predecir las palabras en el idioma objetivo.
 - **Embedding Layer:** Convierte el id token (representación de cada palabra en el vocabulario) a vectores de 'n' dimensiones (word embedding), n: 512.
 
+NOTA: Son 2 modelos que se prueban en la interfaz, tienen los mismos hiperparámetros, solo que el 'modelo 2' fue entrenado con más épocas.
+
 ---
 
 ## Características principales
