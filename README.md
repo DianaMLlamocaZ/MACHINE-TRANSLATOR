@@ -25,7 +25,7 @@ El modelo traductor ha sido implementado desde cero, enfocándome principalmente
 ---
 
 ## Información adicional importante
-- Para cada idioma, creé 1 diccionario que mapea las palabras de ese idioma a un id token, necesario para generar, a partir de él, el word embedding.
+- Para cada idioma, creé 1 diccionario que mapea las palabras de ese idioma a un id token, necesario para generar, a partir de él, el word embedding a través del Embedding Layer.
 - Para que el entrenamiento del modelo sea eficiente y paralelo, utilicé batches. Por ello, debido a que no todas las oraciones tenían el mismo tamaño durante el entrenamiento, utilicé la técnica de 'padding'.
 - Luego de entrenar al modelo con diferentes hiperparámetros, la siguiente configuración resultó en un mejor rendimiento:
   - a
