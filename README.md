@@ -35,9 +35,11 @@ NOTA: Son 2 modelos que se prueban en la interfaz y tienen los mismos hiperpará
 - Para cada idioma, creé 1 diccionario que mapea las palabras de ese idioma a un id token, necesario para generar, a partir de él, el word embedding a través del Embedding Layer.
 - Para que el entrenamiento del modelo sea eficiente y paralelo, utilicé batches. Por ello, debido a que no todas las oraciones tenían el mismo tamaño durante el entrenamiento, utilicé la técnica de 'padding'.
 - Luego de entrenar al modelo con diferentes hiperparámetros, la siguiente configuración resultó en un mejor rendimiento:
-  - a
-  - b
-  - c
+  - optimizer Adam: learning_rate=1e-3 (0.001)
+  - emb_dim: 512
+  - hidden_size: 256
+  - encoder gru layers: 2, decoder gru layers: 1
+  - modelo 1, épocas: 35; modelo 2, épocas: 45
 ---
 
 ## Instalación y uso local
