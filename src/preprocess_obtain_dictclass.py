@@ -13,7 +13,7 @@ def read_dataset(path_dataset):
   dataframe=pd.read_csv(path_dataset)
   return dataframe
 
-datapath="./data.csv"
+datapath="../dataset/data.csv"
 
 dataset=read_dataset(datapath)
 
