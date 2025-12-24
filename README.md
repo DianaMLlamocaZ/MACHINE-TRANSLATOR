@@ -36,5 +36,8 @@ El modelo traductor ha sido implementado desde cero, enfocándome principalmente
 ## Instalación y uso local
 Para ejecutar el programa de forma local, sigue los siguientes pasos:
 - **Ubuntu**
+```console
+git clone repo
+```
   
 - **Windows**
