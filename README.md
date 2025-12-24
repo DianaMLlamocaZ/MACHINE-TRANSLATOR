@@ -34,18 +34,28 @@ El modelo traductor ha sido implementado desde cero, enfocándome principalmente
 ---
 
 ## Instalación y uso local
-Para ejecutar el programa de forma local, sigue los siguientes pasos:
+Para ejecutar el programa de forma local, sigue los pasos descritos:
 
 ### **Ubuntu**
 - Clonar el repositorio:
 ```console
-git clone (link_del_repo) translator
+git clone (link_del_repo) machine-translator
 ```
 - Entrar a la carpeta donde clonaste el repositorio:
 ```console
 cd [Ruta_donde_clonaste_el_repositorio]
 ```
-
-
+- Activar el environment:
+```console
+source machine-translator-env/bin/activate
+```
+- Instalar las librerías necesarias:
+```console
+pip install -r requirements.txt
+``` 
+- Ejecutar la aplicación:
+```console
+streamlit run interfaz.py
+``` 
 
 ### **Windows**
