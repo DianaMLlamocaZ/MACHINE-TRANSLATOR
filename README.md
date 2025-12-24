@@ -5,7 +5,7 @@ Este repositorio contiene un traductor de inglés a español desarrollado ínteg
 
 ## Vista previa
 Aquí muestro una captura de pantalla de prueba del modelo mediante la interfaz.
-![TestModelo](./imgs/Test Modelo.JPG)
+![TestModelo](./imgs/Test%Modelo.JPG)
 
 ---
 ## Dataset:
