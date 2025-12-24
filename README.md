@@ -7,6 +7,8 @@ Este repositorio contiene un traductor de inglés a español desarrollado ínteg
 Aquí mostraré un gif de prueba del modelo.
 
 ---
+## Dataset:
+El modelo fue entrenado utilizando el dataset de **English-Spanish Translation Dataset** alojado en Kaggle.
 
 ## Arquitectura del modelo
 El modelo traductor ha sido implementado desde cero, enfocándome principalmente en el procesamiento correcto de tensores y su arquitectura.
