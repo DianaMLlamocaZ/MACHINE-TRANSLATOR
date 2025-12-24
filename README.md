@@ -4,7 +4,8 @@ Este repositorio contiene un traductor de inglés a español desarrollado ínteg
 ---
 
 ## Vista previa
-Aquí mostraré un gif de prueba del modelo.
+Aquí muestro una captura de pantalla de prueba del modelo mediante la interfaz.
+![TestModelo](https://github.com/DianaMLlamocaZ/SEQUENCE_MODELS_LEARNING/blob/main/TranslationWAttention-Seq2Seq/IMG/Test%20Modelo.JPG)
 
 ---
 ## Dataset:
