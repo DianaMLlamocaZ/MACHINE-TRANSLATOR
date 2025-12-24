@@ -1,1 +1,8 @@
-
+torch
+streamlit
+numpy
+pandas
+unicodedata2
+regex
+scikit-learn
+scikit-image
