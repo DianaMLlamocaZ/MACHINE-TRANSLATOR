@@ -15,3 +15,6 @@ El modelo traductor ha sido implementado desde cero, enfocándome principalmente
 - **Decoder:** Toma el context vector (generado por el mecanismo de atención), el input actual y el hidden state para predecir las palabras en el idioma objetivo.
 - **Embedding:** Convierte el input token (representación de cada palabra en el vocabulario) a vectores de 'n' dimensiones, n: 512.
 
+---
+
+## Características principales
