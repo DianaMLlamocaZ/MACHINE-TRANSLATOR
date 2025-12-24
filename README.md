@@ -47,7 +47,8 @@ NOTA: Son 2 modelos que se prueban en la interfaz y tienen los mismos hiperpará
 Para ejecutar el programa de forma local, sigue los pasos descritos:
 
 **IMPORTANTE:**
-- Primero, descargar el archivo ai_models.zip que se encuentra en el link del README.md dentro de 'models' y descomprimirlo. Posteriormente, solo los archivos con extension .pth almacenarlos en la carpeta 'models' que se crea luego de clonar el repositorio.
+- Primero, descargar el archivo ai_models.zip que se encuentra en el link del README.md dentro de 'models' y descomprimirlo.
+- Posteriormente, copiar solo los archivos con extension .pth y almacenarlos en la carpeta 'models' que se crea luego de clonar el repositorio.
 
 ### **Ubuntu**
 - Clonar el repositorio (recomendado en el escritorio):
