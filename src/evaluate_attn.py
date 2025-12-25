@@ -1,4 +1,4 @@
-from preprocess_obtain_dictclass import normalizeString,tokenize_sentence
+from src.preprocess_obtain_dictclass import normalizeString,tokenize_sentence
 import torch
 
 
