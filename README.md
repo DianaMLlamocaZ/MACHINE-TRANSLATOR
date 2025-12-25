@@ -102,4 +102,9 @@ pip install -r requirements.txt
 - Ejecutar la aplicación:
 ```bash
 streamlit run interface.py
-``` 
+```
+
+---
+
+## Mejoras
+- El modelo puede mejorarse aún más, añadiendo capas o incluso considerar usar GRU layers bidireccionales. Por ese motivo, el modelo puede no funcionar tan bien en algunas oraciones. :)
