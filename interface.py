@@ -1,7 +1,7 @@
 import streamlit as st
-from src/models_attention import Encoder,Decoder
-from src/preprocess_obtain_dictclass import id1,id2
-from src/evaluate_attn import testing,create_sentence
+from src.models_attention import Encoder,Decoder
+from src.preprocess_obtain_dictclass import id1,id2
+from src.evaluate_attn import testing,create_sentence
 import torch
 
 #Configuración de la página
